@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIFF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/sliiide.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/movie.css">
+</head>
+<body>
+    <div>
+        <div class="top_logo">
+            <h1><a href="index.html">MIFF</a></h1>
+        </div>
+        <div id="sliiider-toggle" class="fan-rfa-hamburger-icon">
+            <svg
+                data-name="hamburger Menu Icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 321.5">
+                <rect width="448" height="65" rx="32" ry="32"/>
+                <rect y="127.5" width="448" height="65" rx="32" ry="32"/>
+                <rect y="256.5" width="448" height="65" rx="32" ry="32"/>
+            </svg>
+        </div>
+        <div class="sliding-menu">
+            <div class="drop-down-menu-close slider-exit">
+                <svg
+                    data-name="Close Icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 336.16 336.16">
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(-45 168.08 168.079)"/>
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(45 168.079 168.08)"/>
+                </svg>
+            </div>
+            <h3>Chapters</h3>
+            <a href="index.html"><p>HOME</p></a>
+            <a href="about.html"><p>ABOUT</p></a>
+            <a href="event.html"><p>EVENT</p></a>
+            <a href="faq.html"><p>FAQ</p></a>
+            <div class="social-grp">
+                <a href="#">
+                    <svg id="" class="rfa-fb-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.71 36.71">
+                        <title>FB</title>
+                        <path id="Facebook"
+                            d="M36.71,34.68a2,2,0,0,1-2,2H25.33V22.49H30.1L30.82,17H25.33V13.42c0-1.61.45-2.7,2.75-2.7H31v-5a41.29,41.29,0,0,0-4.28-.22c-4.23,0-7.12,2.59-7.12,7.33V17H14.82v5.54h4.79V36.71H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H34.69a2,2,0,0,1,2,2Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg id="" class="rfa-tw-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 31.21">
+                        <title>TW</title>
+                        <path id="Twitter"
+                            d="M36.42.58a15.43,15.43,0,0,1-4.88,1.91A7.59,7.59,0,0,0,25.93,0a7.78,7.78,0,0,0-7.68,7.88,7.5,7.5,0,0,0,.2,1.79A21.63,21.63,0,0,1,2.61,1.44a8,8,0,0,0-1,4A7.9,7.9,0,0,0,5,12,7.67,7.67,0,0,1,1.5,11v.1A7.83,7.83,0,0,0,7.67,18.8a7.09,7.09,0,0,1-2,.28,7.67,7.67,0,0,1-1.45-.14,7.71,7.71,0,0,0,7.18,5.47,15.21,15.21,0,0,1-9.55,3.37A13.84,13.84,0,0,1,0,27.67a21.32,21.32,0,0,0,11.78,3.54c14.13,0,21.86-12,21.86-22.42,0-.34,0-.68,0-1a15.51,15.51,0,0,0,3.83-4.08A14.52,14.52,0,0,1,33,4.93,7.8,7.8,0,0,0,36.42.58Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="film-body">
+        <a id="scollTop_btn" href="#"><img src="img/top_icon.png"></a>
+        <div class="filmtop">
+            <div class="filmtop_visual" style="background-image: url(img/movie_4.jpg);"></div>
+        </div>
+        <div class="filmdetail">
+            <div class="container movie_con">
+                <div class="film_sec film_info">
+                    <span class="h2 tit_h1">올 겨울에 찍을 영화&nbsp;
+                        <small class="film_tit_en">Film for the Coming Winter</small>
+                    </span>
+                    <ul>
+                        <li class="en"><span class="screen_outx">국가</span>Korea</li>
+                        <li class="en"><span class="screen_outx">제작연도</span>2021</li>
+                        <li class="en"><span class="screen_outx">러닝타임</span>73min</li>
+                        <li class="en"><span class="screen_outx">상영포맷</span>DCP</li>
+                        <li class="en"><span class="screen_outx">컬러</span>Color</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="filmdetail_left">
+                        <div class="film_sec film_synopsis">
+                            <span class="h3">Program Note</span>
+                            <div class="desc">
+                                남자의 직업은 영화감독이다. 새 영화를 준비 중인 그는 어느 여자의 집을 찾아간다.<br/>
+                                둘은 과거에 사귀었던 것 같고, 지금은 친구로 지내는 것 같다. 남자는 자신이 만들 새 영화 이야기를 여자에게 풀어 놓는다.<br/>
+                                그러자 <올 겨울에 찍을 영화>의 전개는 돌연하면서도 담담하게 꿈틀거리기 시작한다. 두 사람의 하루, <br/>
+                                그리고 남자가 풀어놓는 영화 속 영화의 또 다른 두 사람의 이야기가 양 갈래로 교차하며 전개된다. <br/>
+                                <올 겨울에 찍을 영화>는 시종일관 고요한 일상의 분위기를 유지하는 동시에 간결하면서 기발한 방식으로 자/타의 문제, 기억의 문제, 인식의 문제,<br/>감정의 문제 등을 꿰뚫으며
+                                심오한 질문을 제기한다. 내가 보고 있는 그 사람은 정말 그 사람인가? 한 사람은 과연 정말 한 사람인가?
+                                <br/>(정한석)
+                            </div>
+                        </div>
+                        <div class="film_sec film_director">
+                            <span class="h3 tit_h3 en">Director</span>
+                            <div class="list_dir">
+                                <div class="dir_item">
+                                    <div class="dir_thumb">
+                                        <div class="avatar">
+                                            <img src="https://img.biff.kr/9611_DATA/FILM_PHOTO/2021/1628061331.jpeg" alt="Director">                                    
+                                        </div>
+                                    </div>
+                                    <div class="dir_info">
+                                        <strong class="dir_name">김경래</strong>
+                                        <p class="dir_name_en">KIM Kyungrae</p>
+                                        <div class="desc">
+                                            단편영화 <김치>(2011)를 시작으로 꾸준하게 작품 활동을 이어가고 있다. <br/>
+                                            이후 단편영화 <모래>가 2019 베니스영화제 오리종티 단편경쟁부문에 진출했고, <br/>
+                                            장편영화 <레슨 중>이 2018 제천국제음악영화제 한국음악영화의 오늘에서 상영됐다. <br/>
+                                            현재는 광고와 영화제작을 병행하고 있으며, 올해 한국예술종합학교 영화과 전문사에 입학하였다.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="film_sec film_photo">
+                            <span class="h3">Photo</span>
+                            <div class="slideshow-container">
+                                <div class="film_photo_slider slide_fade">
+                                  <img src="img/movie_4.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                  <img src="img/movie_4-2.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_4-3.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_4-3.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_4-4.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_4-5.jpg">
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <div class="control_button">
+                                    <a class="prev" onclick="moveSlides(-1)"><img src="img/view_arr_left.png"></a>
+                                    <a class="next" onclick="moveSlides(1)"><img src="img/view_arr_right.png"></a>
+                                </div>
+                                <!-- The dots/circles -->
+                                <div class="film_dots">
+                                    <span class="dot" onclick="currentSlide(0)"></span>
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                    <span class="dot" onclick="currentSlide(5)"></span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ft" class="ft">
+        <div class="footer_inner">
+            <div class="container">                
+                <div class="fnb">
+                    <ul class="list-inline">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">저작권정책</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">역대영화제</a></li>
+                    </ul>
+                </div>	
+                <div class="row foot_line">
+                    <div class="col">
+                        <p><strong>울산사무국</strong> 울산광역시 울산구 울산로 100 영화의전당 2층</p>
+                        <p><strong>대표전화</strong> 1688-3010 </p>
+                    </div>
+                </div>
+                <p class="copyright">ⓒ Minkyoung International Film Festival</p>
+            </div>	
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/movie.js"></script>
+</body>
+</html>

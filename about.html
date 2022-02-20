@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIFF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/sliiide.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <div class="header">
+        <div class="top_logo">
+            <h1><a href="index.html">MIFF</a></h1>
+        </div>
+        <div id="sliiider-toggle" class="fan-rfa-hamburger-icon">
+            <svg
+                data-name="hamburger Menu Icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 321.5">
+                <rect width="448" height="65" rx="32" ry="32"/>
+                <rect y="127.5" width="448" height="65" rx="32" ry="32"/>
+                <rect y="256.5" width="448" height="65" rx="32" ry="32"/>
+            </svg>
+        </div>
+        <div class="sliding-menu">
+            <div class="drop-down-menu-close slider-exit">
+                <svg
+                    data-name="Close Icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 336.16 336.16">
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(-45 168.08 168.079)"/>
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(45 168.079 168.08)"/>
+                </svg>
+            </div>
+            <h3>Chapters</h3>
+            <a href="index.html"><p>HOME</p></a>
+            <a href="about.html"><p>ABOUT</p></a>
+            <a href="event.html"><p>EVENT</p></a>
+            <a href="faq.html"><p>FAQ</p></a>
+            <div class="social-grp">
+                <a href="#">
+                    <svg id="" class="rfa-fb-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.71 36.71">
+                        <title>FB</title>
+                        <path id="Facebook"
+                            d="M36.71,34.68a2,2,0,0,1-2,2H25.33V22.49H30.1L30.82,17H25.33V13.42c0-1.61.45-2.7,2.75-2.7H31v-5a41.29,41.29,0,0,0-4.28-.22c-4.23,0-7.12,2.59-7.12,7.33V17H14.82v5.54h4.79V36.71H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H34.69a2,2,0,0,1,2,2Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg id="" class="rfa-tw-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 31.21">
+                        <title>TW</title>
+                        <path id="Twitter"
+                            d="M36.42.58a15.43,15.43,0,0,1-4.88,1.91A7.59,7.59,0,0,0,25.93,0a7.78,7.78,0,0,0-7.68,7.88,7.5,7.5,0,0,0,.2,1.79A21.63,21.63,0,0,1,2.61,1.44a8,8,0,0,0-1,4A7.9,7.9,0,0,0,5,12,7.67,7.67,0,0,1,1.5,11v.1A7.83,7.83,0,0,0,7.67,18.8a7.09,7.09,0,0,1-2,.28,7.67,7.67,0,0,1-1.45-.14,7.71,7.71,0,0,0,7.18,5.47,15.21,15.21,0,0,1-9.55,3.37A13.84,13.84,0,0,1,0,27.67a21.32,21.32,0,0,0,11.78,3.54c14.13,0,21.86-12,21.86-22.42,0-.34,0-.68,0-1a15.51,15.51,0,0,0,3.83-4.08A14.52,14.52,0,0,1,33,4.93,7.8,7.8,0,0,0,36.42.58Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container fade-in" data-fade-in-speed="800">
+        <div class="sub_title_wrap">
+            <div class="container">
+                <h1 class="en">2022 MIFF</h1>
+            </div>
+        </div>
+        <div class="container">
+            <a id="scollTop_btn" href="#"><img src="img/top_icon.png"></a>
+            <div class="sub_inner">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="tit-sec">행사 개요</h2>
+                        <div class="about_table">
+                            <dl>
+                                <dt>개최기간</dt>
+                                <dd>2022년 5월 20일(금) ~ 29일(일)</dd>
+                            </dl>
+                            <dl>
+                                <dt>상영관</dt>
+                                <dd>
+                                    6개 극장 29개 스크린
+                                    <ul class="list_basic2">
+                                        <li>영화의전당, CGV 울산삼산, 롯데시네마 울산(백화점), 롯데시네마 울산성남, 메가박스 울산, 한마음회관</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>상영작</dt>
+                                <dd>
+                                    <ul class="list_basic2">
+                                        <li>공식 선정작 70개국 223편</li>
+                                        <li>커뮤니티비프 상영작 63편</li>
+                                    </ul>						
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>주요행사</dt>
+                                <dd>
+                                    <ul class="list_basic2">
+                                        <li>오픈토크</li>
+                                        <li>스페셜토크</li>
+                                        <li>야외무대인사</li>
+                                        <li>액터스 하우스</li>
+                                        <li>마스터클래스</li>
+                                        <li>핸드프린팅</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>개최형식</dt>
+                                <dd>
+                                    <ul class="list_basic2">
+                                        <li>극장 상영 진행</li>
+                                        <li>1편당 2~3회 상영(2020년 1편당 1회 상영)</li>
+                                        <li>아시아콘텐츠&amp;필름마켓 온·오프라인 동시 개최</li>
+                                        <li>아시아콘텐츠어워즈, 아시아필름어워즈 온·오프라인 생중계</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="tit-sec">올해의 특징</h2>
+                        <p class="txt-sub">시대의 패러다임 전환에 따른 새로운 움직임</p>
+                        <p class="desc">
+                            코로나바이러스감염증-19(COVID-19) 팬데믹으로 전 세계 모든 영화제들이 강제적으로 변화의 과도기에 놓이게 되었고, 부산국제영화제도 나름의 철학과 방식으로 뉴 노멀(New Normal) 시대에 맞는 영화축제의 방향과 비전을 고민하였다. 올해 그 일환으로 몇몇 새로운 프로그램들을 신설함으로써 포스트코로나 시대를 대비한 첫 시도를 시작하고자 한다.<br><br>
+                            확장되는 영화산업의 현주소를 반영한 ’온 스크린’ 섹션 신설은 온라인 동영상 스트리밍 플랫폼(Over The Top, 이하 OTT) 플랫폼과 영화제가 서로의 가치를 받아들이고 포용하는 윈윈 모델을 만들어 현대 관객들에게 좀 더 다양한 관람의 선택지를 제공해 준다는 점에서 의미를 찾을 수 있다. 또한 글로컬(Glocal) 시대에 맞는 지역밀착형의 관람 프로그램을 신설하여 비경쟁영화제로서 탈권위, 탈중앙의 정신을 기반으로 정해진 행사장이 아닌 부산 전역, 아시아 전역에서 영화제에 참여할 수 있는 형태를 만들고자 한다. 향후, 진정한 아시아영화의 ‘홈타운’을 보여줄 예정이다
+                        </p>
+                        <div class="summary_list">
+                            <p class="txt-sub">세계 영화계의 흐름을 짚어주는 특별전과 새로운 시도</p>
+                            <p class="desc">
+                                부산국제영화제는 해마다 다양한 특별전을 기획해왔다. 특정 국가나 감독을 조명하는 경우도 있고 어떤 세대의 영화나 장르를 특정하여 구성하는 경우도 있었다. 올해 부산국제영화제는 아시아영화를 다룬 두 개의 특별전을 준비하였다. 영화계 전문가들의 설문을 거쳐 여성감독이 만든 최고의 아시아영화를 선정한 특별전 ‘원더 우먼스 무비’와 최근 전 세계적인 주목을 받는 중국 감독들의 영화를 소개하는 특별전 ‘중국영화, 새로운 목소리’가 그것이다.
+                                ‘온 스크린’은 새롭게 신설된 섹션으로 OTT 드라마 시리즈 화제작을 상영한다. 또한, 배우들이 그들의 연기 인생을 관객들에게 직접 전달하는 ‘액터스 하우스’도 새롭게 선보일 계획이다. 지난해 태국과 베트남 현지에서 영화제 기간 동안 동시상영 및 GV를 진행한 것에 이어 올해도 태국과 싱가포르에서 동시 GV를 진행할 예정이다.
+                            </p>
+                        </div>
+                        <div class="summary_list">
+                            <p class="txt-sub">영화제 선정작 100% 극장 상영 </p>
+                            <p class="desc">
+                                선정작은 모두 극장 상영을 원칙으로 한다. 작년에는 작품당 1회씩 상영하였으나 올해는 예년과 같이 여러 회 상영될 예정이다. 영화의전당으로 한정한 지난해와 달리 올해는 영화의전당, CGV, 롯데시네마, 소향씨어터 등 예년의 수준으로 상영관도 확보하였다. 또한 전체 좌석수의 50%만을 운영하여 거리두기를 실천할 계획이고, 한국영화 GV는 100% 현장 진행, 해외영화 GV는 온라인 또는 오프라인으로 진행 예정이다.
+                            </p>
+                        </div>
+                        <div class="summary_list">
+                            <p class="txt-sub">정부 지침에 맞는 철저한 방역 실시와 온라인 예매</p>
+                            <p class="desc">
+                                지난해 엄격한 방역대책으로 어떠한 안전사고도 일어나지 않았던 만큼 올해도 관리에 만전을 기할 예정이다. 극장에는 50%의 인원만이 입장 가능하며, 실내외 극장과 모든 행사장에서 사회적 거리두기가 적용될 것이다. 이와 더불어 체온 측정, 안심콜 출입관리, 정기적인 소독 등을 실시하고 전 좌석 온라인 예매를 진행할 계획이다. 단, 취소표와 잔여좌석에 한해서는 현장 예매가 가능하다. 참석자들이 안전하게 즐길 수 있는 영화제를 위해 최선을 다할 것이다.
+                            </p>
+                        </div>
+                        <div class="summary_list">
+                            <p class="txt-sub">아시아콘텐츠&필름마켓, 온·오프라인 동시 개최</p>
+                            <p class="desc">
+                                아시아콘텐츠&필름마켓은 작년에 이어 온라인으로 개최된다. 그중 엔터테인먼트 지적재산권 마켓(Entertainment Intellectual Property Market, E-IP마켓)과 아시아프로젝트마켓(Asian Project Market, APM)의 국내 참가자에 한해, 마켓 현장에서 대면 미팅을 진행할 계획이다. 이번 마켓에서는 한국·대만·일본의 원작 45편과 한국·아시아의 장편영화 프로젝트 25편이 소개될 예정이다. 전 세계가 주목하는 K-콘텐츠 산업의 주요 관계자 대담 등 온라인으로 공개될 컨퍼런스에서는 코로나바이러스감염증-19(COVID-19) 팬데믹 극복 방안과 새로운 산업 환경에 대한 비전을 공유한다.
+                            </p>
+                        </div>
+                        <div class="summary_list">
+                            <p class="txt-sub">아시아콘텐츠어워즈, 아시아필름어워즈 온·오프라인 생중계</p>
+                            <p class="desc">
+                                올해로 3회를 맞는 아시아콘텐츠어워즈(Asia Contents Awards, ACA)는 애니메이션, 숏폼, 웹드라마까지 후보작 대상을 확대해 14개 부문의 수상작을 온라인 생중계를 통해 발표할 예정이다. 홍콩국제영화제, 부산국제영화제, 도쿄국제영화제가 공동 주최하는 제15회 아시아필름어워즈(AFA15) 또한 온·오프라인 하이브리드로 진행되며, 18개 부문에 걸쳐 아시아영화 산업에 이바지한 영화와 영화인에게 시상할 예정이다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ft" class="ft">
+        <div class="footer_inner">
+            <div class="container">                
+                <div class="fnb">
+                    <ul class="list-inline">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">저작권정책</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">역대영화제</a></li>
+                    </ul>
+                </div>	
+                <div class="row foot_line">
+                    <div class="col">
+                        <p><strong>울산사무국</strong> 울산광역시 울산구 울산로 100 영화의전당 2층</p>
+                        <p><strong>대표전화</strong> 1688-3010 </p>
+                    </div>
+                </div>
+                <p class="copyright">ⓒ Minkyoung International Film Festival</p>
+            </div>	
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/about.js"></script>
+</body>
+</html>

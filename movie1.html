@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIFF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/sliiide.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/movie.css">
+</head>
+<body>
+    <div>
+        <div class="top_logo">
+            <h1><a href="index.html">MIFF</a></h1>
+        </div>
+        <div id="sliiider-toggle" class="fan-rfa-hamburger-icon">
+            <svg
+                data-name="hamburger Menu Icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 321.5">
+                <rect width="448" height="65" rx="32" ry="32"/>
+                <rect y="127.5" width="448" height="65" rx="32" ry="32"/>
+                <rect y="256.5" width="448" height="65" rx="32" ry="32"/>
+            </svg>
+        </div>
+        <!-- Drop down Menu -->
+        <div class="sliding-menu">
+            <div class="drop-down-menu-close slider-exit">
+                <svg
+                    data-name="Close Icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 336.16 336.16">
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(-45 168.08 168.079)"/>
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(45 168.079 168.08)"/>
+                </svg>
+            </div>
+            <h3>Chapters</h3>
+            <a href="index.html"><p>HOME</p></a>
+            <a href="about.html"><p>ABOUT</p></a>
+            <a href="event.html"><p>EVENT</p></a>
+            <a href="faq.html"><p>FAQ</p></a>
+            <div class="social-grp">
+                <a href="#">
+                    <svg id="" class="rfa-fb-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.71 36.71">
+                        <title>FB</title>
+                        <path id="Facebook"
+                            d="M36.71,34.68a2,2,0,0,1-2,2H25.33V22.49H30.1L30.82,17H25.33V13.42c0-1.61.45-2.7,2.75-2.7H31v-5a41.29,41.29,0,0,0-4.28-.22c-4.23,0-7.12,2.59-7.12,7.33V17H14.82v5.54h4.79V36.71H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H34.69a2,2,0,0,1,2,2Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg id="" class="rfa-tw-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 31.21">
+                        <title>TW</title>
+                        <path id="Twitter"
+                            d="M36.42.58a15.43,15.43,0,0,1-4.88,1.91A7.59,7.59,0,0,0,25.93,0a7.78,7.78,0,0,0-7.68,7.88,7.5,7.5,0,0,0,.2,1.79A21.63,21.63,0,0,1,2.61,1.44a8,8,0,0,0-1,4A7.9,7.9,0,0,0,5,12,7.67,7.67,0,0,1,1.5,11v.1A7.83,7.83,0,0,0,7.67,18.8a7.09,7.09,0,0,1-2,.28,7.67,7.67,0,0,1-1.45-.14,7.71,7.71,0,0,0,7.18,5.47,15.21,15.21,0,0,1-9.55,3.37A13.84,13.84,0,0,1,0,27.67a21.32,21.32,0,0,0,11.78,3.54c14.13,0,21.86-12,21.86-22.42,0-.34,0-.68,0-1a15.51,15.51,0,0,0,3.83-4.08A14.52,14.52,0,0,1,33,4.93,7.8,7.8,0,0,0,36.42.58Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="film-body">
+        <a id="scollTop_btn" href="#"><img src="img/top_icon.png"></a>
+        <div class="filmtop">
+            <div class="filmtop_visual" style="background-image: url(img/movie_1.jpg);"></div>
+        </div>
+        <div class="filmdetail">
+            <div class="container">
+                <div class="film_sec film_info">
+                    <span class="h2 tit_h1">낙원의 밤&nbsp;
+                        <small class="film_tit_en">Night in Paradise</small>
+                    </span>
+                    <ul>
+                        <li class="en"><span class="screen_outx">국가</span>Korea</li>
+                        <li class="en"><span class="screen_outx">제작연도</span>2021</li>
+                        <li class="en"><span class="screen_outx">러닝타임</span>132min</li>
+                        <li class="en"><span class="screen_outx">상영포맷</span>DCP</li>
+                        <li class="en"><span class="screen_outx">컬러</span>Color</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="filmdetail_left">
+                        <div class="film_sec film_synopsis">
+                            <span class="h3">Program Note</span>
+                            <div class="desc">
+                                폭력 조직의 중간 보스인 태구(엄태구)는 상대 조직의 보스를 상해한 후 제주도로 피신하고, 
+                                그곳에서 공허한 눈빛의 재연(전여빈)을 만난다.<br/>
+                                폭력 조직에 몸담았던 삼촌을 제거하려던 조직원들에 의해 가족을 잃은 재연은 태구 같은 인간들이 경멸스럽지만,<br/>
+                                기댈 곳 없는 재연과 태구는 본능적으로 서로를 알아보며 이끌린다.<br/>
+                                그러나 낙원의 화사한 순간은 잠시 스쳐갈 뿐, 그들에게는 어두운 밤이 기다리고 있다.
+                                <낙원의 밤>은 필름 누아르의 컨벤션을 능숙하게 관통해낸다.<br/>
+                                징글맞게 질퍽이고 폼 내고 지독해서 필름 누아르가 안기는 카타르시스를 제대로 안겨주는 이 영화는, 완벽한 픽션의 세계 안에서 제대로 잔혹하다.
+                                <br/>(홍은미)
+                            </div>
+                        </div>
+                        <div class="film_sec film_director">
+                            <span class="h3 tit_h3 en">Director</span>
+                            <div class="list_dir">
+                                <div class="dir_item">
+                                    <div class="dir_thumb">
+                                        <div class="avatar">
+                                            <img src="https://img.biff.kr/9611_DATA/FILM_PHOTO/2021/1627910972.jpg" alt="Director">                                    
+                                        </div>
+                                    </div>
+                                    <div class="dir_info">
+                                        <strong class="dir_name">박훈정</strong>
+                                        <p class="dir_name_en">PARK Hoon-jung</p>
+                                        <div class="desc">
+                                            파격적인 설정, 강렬한 스토리텔링의 <악마를 보았다>(2010)와 현실성과 영화적 재미를 동시에 갖춘
+                                            <부당거래>(2010)의 각본으로 주목을 받았으며, 첫 연출작 <혈투>(2011)를 거쳐 <신세계>(2012)로
+                                            한국 누아르의 새로운 지평을 열었다.
+                                            이후 <대호>(2015), <브이아이피>(2017), <마녀>(2018)를 연출했고, 2020 베니스영화제 비경쟁부문에 초청되어 극찬을 받은
+                                            <낙원의 밤>에서는 서정적이고 처절한 이야기로 또 한 편의 독보적인 박훈정 감독만의 작품을 선보였다.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="film_sec film_photo">
+                            <span class="h3">Photo</span>
+                            <div class="slideshow-container">
+                                <div class="film_photo_slider slide_fade">
+                                  <img src="img/movie_1.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                  <img src="img/movie_1-2.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_1-3.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_1-3.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_1-4.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_1-5.jpg">
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <div class="control_button">
+                                    <a class="prev" onclick="moveSlides(-1)"><img src="img/view_arr_left.png"></a>
+                                    <a class="next" onclick="moveSlides(1)"><img src="img/view_arr_right.png"></a>
+                                </div>
+                                <!-- The dots/circles -->
+                                <div class="film_dots">
+                                    <span class="dot" onclick="currentSlide(0)"></span>
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                    <span class="dot" onclick="currentSlide(5)"></span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <!-- <div class="filmdetail_right credits">
+                        <span class="h3 tit_h3">Credit</span>
+                        <ul>
+                            <li><strong>Director</strong>
+                                <span class="kor">HONG Ji-young 홍지영</span>
+                            </li>
+                            <li><strong>Producer</strong>
+                                <span>Jin-soo MIN 민진수</span> 
+                            </li>
+                            <li><strong>Cast</strong>
+                                <span>Kang-woo KIM 김강우, In-na YOO 유인나, Yeon-seok YOO 유연석, Yeon-hee LEE 이연희, Dong-hwi LEE 이동휘, Du-ling CHEN 천두링, Hye-ran YEOM 염혜란, Soo-young CHOI 최수영, Teo YOO 유태오</span>
+                            </li>
+                            <li><strong>Screenplay</strong>
+                                <span>Myeong-ju KO 고명주,Hyeon-kyeong HAM 함현경</span>
+                            </li>
+                            <li><strong>Cinematography</strong>
+                                <span>Seung-cheol OH 오승철</span>
+                            </li>
+                            <li><strong>Production Design</strong>
+                                <span>Im CHOI 최임</span>
+                            </li>
+                            <li><strong>Editor</strong>
+                                <span>Min-kyung SHIN 신민경</span>
+                            </li>
+                            <li><strong>Sound</strong>
+                                <span>Tae-won GONG 공태원</span>
+                            </li>
+                            <li><strong>Music</strong>
+                                <span>Ji-soo LEE 이지수</span>
+                            </li>
+                            <li><strong>Production Company</strong>
+                                <span>SOOFILM<br>Korea<br>3F JinJu Bldg,559-6, shinsa-dong, Gangnam-gu, Seoul, korea<br>mbs0830@hanmail.net<br><br></span>
+                            </li>
+                            <li><strong>World Sales</strong>
+                                <span>ACEMAKER MOVIEWORKS<br>Korea 36, Dosan-daero, 78-gil, Gangnam-gu, Seoul, Korea<br>sales@acemaker.co.kr<br></span>
+                            </li> 
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ft" class="ft">
+        <div class="footer_inner">
+            <div class="container">                
+                <div class="fnb">
+                    <ul class="list-inline">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">저작권정책</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">역대영화제</a></li>
+                    </ul>
+                </div>	
+                <div class="row foot_line">
+                    <div class="col">
+                        <p><strong>울산사무국</strong> 울산광역시 울산구 울산로 100 영화의전당 2층</p>
+                        <p><strong>대표전화</strong> 1688-3010 </p>
+                    </div>
+                </div>
+                <p class="copyright">ⓒ Minkyoung International Film Festival</p>
+            </div>	
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/movie.js"></script>
+</body>
+</html>

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIFF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/sliiide.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/faq.css">
+</head>
+<body>
+    <div class="header">
+        <div class="top_logo">
+            <h1><a href="index.html">MIFF</a></h1>
+        </div>
+        <div id="sliiider-toggle" class="fan-rfa-hamburger-icon">
+            <svg
+                data-name="hamburger Menu Icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 321.5">
+                <rect width="448" height="65" rx="32" ry="32"/>
+                <rect y="127.5" width="448" height="65" rx="32" ry="32"/>
+                <rect y="256.5" width="448" height="65" rx="32" ry="32"/>
+            </svg>
+        </div>
+        <div class="sliding-menu">
+            <div class="drop-down-menu-close slider-exit">
+                <svg
+                    data-name="Close Icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 336.16 336.16">
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(-45 168.08 168.079)"/>
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(45 168.079 168.08)"/>
+                </svg>
+            </div>
+            <h3>Chapters</h3>
+            <a href="index.html"><p>HOME</p></a>
+            <a href="about.html"><p>ABOUT</p></a>
+            <a href="event.html"><p>EVENT</p></a>
+            <a href="faq.html"><p>FAQ</p></a>
+            <div class="social-grp">
+                <a href="#">
+                    <svg id="" class="rfa-fb-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.71 36.71">
+                        <title>FB</title>
+                        <path id="Facebook"
+                            d="M36.71,34.68a2,2,0,0,1-2,2H25.33V22.49H30.1L30.82,17H25.33V13.42c0-1.61.45-2.7,2.75-2.7H31v-5a41.29,41.29,0,0,0-4.28-.22c-4.23,0-7.12,2.59-7.12,7.33V17H14.82v5.54h4.79V36.71H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H34.69a2,2,0,0,1,2,2Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg id="" class="rfa-tw-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 31.21">
+                        <title>TW</title>
+                        <path id="Twitter"
+                            d="M36.42.58a15.43,15.43,0,0,1-4.88,1.91A7.59,7.59,0,0,0,25.93,0a7.78,7.78,0,0,0-7.68,7.88,7.5,7.5,0,0,0,.2,1.79A21.63,21.63,0,0,1,2.61,1.44a8,8,0,0,0-1,4A7.9,7.9,0,0,0,5,12,7.67,7.67,0,0,1,1.5,11v.1A7.83,7.83,0,0,0,7.67,18.8a7.09,7.09,0,0,1-2,.28,7.67,7.67,0,0,1-1.45-.14,7.71,7.71,0,0,0,7.18,5.47,15.21,15.21,0,0,1-9.55,3.37A13.84,13.84,0,0,1,0,27.67a21.32,21.32,0,0,0,11.78,3.54c14.13,0,21.86-12,21.86-22.42,0-.34,0-.68,0-1a15.51,15.51,0,0,0,3.83-4.08A14.52,14.52,0,0,1,33,4.93,7.8,7.8,0,0,0,36.42.58Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container col">
+        <div class="sub_title_wrap">
+            <div class="container">
+                <h1 class="en">FAQ</h1>
+            </div>
+        </div>
+        <div class="container">
+            <a id="scollTop_btn" href="#"><img src="img/top_icon.png"></a>
+            <div class="tabs">
+                <ul class="tab_menu">
+                    <li class="on"><a href="#">티켓 예매권</a></li>
+                    <li class=""><a href="#">취소 / 변경 / 환불</a></li>
+                    <li><a href="#">상영작 공간 관련</a></li>
+                    <li class=""><a href="#">기타</a></li>
+                    <li class=""><a href="#">방역지침</a></li>
+			    </ul>
+            </div>
+        </div>
+        <div class="cont">
+            <div class="container">
+                <div id="tab_list">
+                    <div class="tab_contents">
+                        <div class="qna">
+                            <ul class="qna_list">
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>올해(2021) 예매권은 어디서 구입하나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                카드(실물) 예매권 판매 기간(9/9 ~ 9/12)이 종료 되었습니다.<br> 
+                                                모바일 예매권 - 부산국제영화제 네이버 스마트스토어에서 구매 가능합니다. <br><br>
+                
+                                                **모바일 예매권 구매 페이지 (https://smartstore.naver.com/biff)<br>
+                                                판매 기간: 2021.09.14(수) 18:00 ~2021.10.14(목) 23:59<br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>모바일티켓 가이드라인 안내</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                1. 스마트폰으로 http://www.biff.kr 접속<br>
+                                                 2. 간편 예매 로그인 (예매 시 사용한 '이름, 휴대폰 번호, 비밀번호' 등 기입)<br>
+                                                 3. 모바일 티켓 (로고가 깜빡이는 티켓) 제시 <br>
+                                                 ※ 가이드라인 링크 ▶ https://www.biff.kr/kor/html/landing/m_ticket.html<br>
+                                                <span>※ 로그인 오류 등으로 입장이 지연될 수 있으니, 예매 시 로그인 정보를 정확히 기입해 주시기 바랍니다.<br>
+                                                ※ 모바일 티켓을 캡처한 사진이나 예매번호로는 입장이 불가합니다.</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>현장에서 티켓을 살 수 있나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                온/오프라인으로 예매가 가능하오나, 별도의 현장 판매분이 없기 때문에 온라인 예매가 매진일 경우 현장 매표소에서도 예매가 불가합니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>티켓 및 예매권은 몇 장 예매할 수 있나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                티켓 - 1인 2매<br>
+                                                예매권 - 1인 10매로 각각 1인 당 구매 가능 수량이 제한 됩니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>단체 관람(예매) 진행 하나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                코로나바이러스감염증 확산 방지를 위해 좌석 간 거리를 두고 있어 좌석 수가 적어 단체관람을 수용하지 않습니다. (야외극장 포함)
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>할인 정책 안내</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                - 경로 우대: 3,000원 할인 (만 65세인 1956년생 이상, 신분증 지참 필수)<br>
+                                                - 장애인: 3,000원 할인(복지카드 지참 필수)<br>
+                                                - 영화의전당 유료회원: 3,000원 할인(개·폐막식 제외한 영화의전당, 야외극장, 소향씨어터 상영작에 한함)<br>
+                                                - 부산영화체험 박물관 티켓 소지자: 3,000원 할인(개·폐막식 제외)<br><br>
+                   
+                                               ※ 모든 할인은 현장 BIFF 매표소에서만 적용 가능합니다.							
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>관람등급은 어떻게 되나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                상영관 입장은 관람등급에 따라 제한됩니다.<br><br>
+                                                  
+                                                 * G(전체관람가) : 모든 관람객이 관람할 수 있는 등급<br>
+                                                 * 12세 이상 관람가 : 만 12세(2009년생) 미만인 자는 관람할 수 없는 등급<br>
+                                                 * 15세 이상 관람가 : 만 15세(2006년생) 미만인 자는 관람할 수 없는 등급<br>
+                                                 * 청소년 관람불가 : 만 18세(2003년생) 미만인 자는 관람할 수 없는 등급<br><br>
+                                                 
+                                                 ※ 청소년 관람불가 영화의 경우, 고등학교에 재학 중인 자를 포함하여 미성년자(만 18세 미만)는 보호자를 동반하여도 입장이 불가합니다.<br>
+                                                 ※ 만 5세 미만의 유아는 부모가 동반하여도 입장 제한
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab_contents">
+                        <div class="qna">
+                            <ul class="qna_list">
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>예매한 티켓 취소는 어떻게 하나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                예매 취소는 해당 영화 시작 30분 전까지 온라인으로 가능합니다.<br>
+                                                <span>※ 취소하는 시점에 따라 취소수수료가 다르니 취소 전 확인해 주시기 바랍니다.</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>취소수수료는 얼마인가요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                티켓의 취소수수료는 취소하는 시점에 따라 다릅니다.<br>
+                                                <br>
+                                                1. 영화제 개막 전 (10월 5일까지) : 수수료 없음<br>
+                                                2. 영화제 기간 (10월 6일~15일) : 1천 원 (티켓 1장당), 온라인에서 별도로 결제<br>
+                                                3. 영화제가 상영 일정을 변경하는 등 주최 측의 사유가 있을 경우는 수수료 없이 행사기간 내에 온라인에서 환불
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>예매 취소 후, 환불은 언제 되나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>1~3일 길게는 7일까지 소요되며, 결제수단에 따라 환불에 소요되는 시간이 다릅니다.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p><p>결제 수단을 변경하려 합니다.</p></p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                티켓 예매가 완료된 후 결제수단을 변경하려면 예매한 티켓을 취소하고 다시 예매해 주셔야 합니다.<br>
+                                                이 과정에서 좌석이 확보되지 않을 수 있으니 이 점 유의 바랍니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>티켓 교환 창구 운영하나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>코로나19 영향으로 인해 올해는 티켓 교환 창구를 운영하지 않습니다.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>예매권으로 결제한 티켓을 취소하면 다시 사용할 수 없나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                예매권으로 결제한 티켓을 취소하시면 예매 번호가 복구되어 티켓 예매 시 이용 가능합니다.  단, 종이 티켓으로 발권 시에는 취소가 불가합니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab_contents">
+                        <div class="qna">
+                            <ul class="qna_list">
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>올해(2022년도) 상영관</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                영화의전당 - 하늘연극장, 중극장, 소극장, 시네마테크, 야외극장<br>
+                                                CGV 울산삼산, 롯데시네마 울산(백화점), 롯데시네마 울산성남, 메가박스 울산<br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>장애인이나 노약자의 입장 방법은 어떻게 되나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                극장 별 안내데스크에 도움을 요청하시거나, 아래 안내된 번호로 연락 주시면 감사하겠습니다.<br>
+                                                ☎ 1666-9177 (콜센터 10:00 ~ 17:00)<br>
+                                                ☎ 1688-3010 (대표번호)
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>상영 시작 후에 입장 가능한가요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>정시입장이 원칙이나, 상영 시작 후 15분까지 입장할 수 있으며, 반드시 예매한 지정좌석에 착석해야 합니다.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>영화 관람 시 사진이나 동영상 촬영이 가능한가요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                <span>상영 중 촬영은 불가합니다. (단, 상영 후 GV 행사는 촬영 가능합니다)</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>상영 몇 분 전부터 입장하나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>상영 시작 15분 전부터 입장하실 수 있으며, 현장 스태프의 안내에 따라주시기 바랍니다.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>온라인으로 예매했는데 바로 입장이 가능한가요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>해당 상영작의 모바일 티켓을 제시하신 후 입장 가능합니다.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab_contents">
+                        <div class="qna">
+                            <ul class="qna_list">
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>관람객이 아닌 일반 방문객도 영화제 방문할 수 있나요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>영화제 관객이 아니어도 단순 방문 가능하나 방역지침에 따라주시기 바랍니다.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>방역 계획은 어떤가요?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                0. 마스크를 착용하지 않으면 출입이 불가합니다. 실내는 물론 실외에서도 마스크를 착용해야 하며, 영화 관람객은 KF(80, 94)규격의 마스크를 이용해 주실 것을 적극 권장합니다.<br>
+                                                1. 상영관 출입 시 체온 측정 및 전자출입 명부(안심콜, QR, 수기명부 등) 시행<br>
+                                                2. 상영 전후 팔걸이 소독, 1일 1회 상영관 소독과 환기 등 주기적 방역 실시
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <div class="question">
+                                        <span>Q</span><p>주차장 위치와 주차요금 알려주세요.</p>
+                                    </div>
+                                    <div class="answer">
+                                        <div class="ico_sec">
+                                            <span>A</span>
+                                        </div>
+                                        <div class="txt_sec">
+                                            <p>
+                                                *영화의전당 주차장<br><br>
+                                                
+                                                주차 수용 최대 501대(장애인용 20대 포함)<br>
+                                                주차요금(운영시간 08:00 ~ 23:00)<br>
+                                                - 기본요금: 30분 이내 출차 시 무료, 초과 시 30분당 1,000원(정상요금 적용)<br>
+                                                - 영화 관객: 1편당 4시간 무료<br>
+                                                - 일일 요금: 15,000원<br>
+                                                - 할인 요금(50% 할인): 경차, 장애인, 국가유공자, 다자녀가정 가족사랑카드 등재자, 선택요일제 참여차량<br><br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab_contents">
+                        <div class="faq_covid">
+                            <ul class="faq_covid_list">
+                                <li>
+                                    상영관 내 음식물 반입 제한 (코로나19 확산 방지를 위해 상영관 내 뚜껑이 있는 생수와 음료류를 제외한 음식물 반입 및 섭취는 불가합니다.)
+                                    <br>* 단, 영화의전당 하늘연극장, 소향씨어터의 경우 생수만 가능
+                                </li>
+                                <li>(GV) 상영관 내에서는 게스트와의 접촉을 최소화하는 방침으로 운영 중에 있습니다. 대화 역시 별도로 하실 수 없사오니 이 점 양해 부탁드립니다.</li>
+                                <li>티켓이 필요한 행사에 해당 상영작 티켓을 소지하지 않은 경우는 입장이 제한됩니다.</li>
+                                <li>상영관 입장 후에는 지정된 좌석에만 착석 가능합니다.</li>
+                                <li>행사장 내에서 마스크 착용은 필수이며, 미착용 시 입장이 불가합니다. 영화 관람 중에도 반드시 마스크를 착용해 주셔야 하는 점 양해 부탁드립니다.</li>
+                                <li>체온 측정 시 두 차례 이상 37.5도 이상이면 행사장 입장이 제한됩니다.
+                                <br>* 현장 스태프의 안내를 따라주시기 바랍니다.</li>
+                                <li>행사장 출입 시 안심콜 출입관리시스템 등 출입명부를 반드시 등록해주셔야 합니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ft" class="ft">
+        <div class="footer_inner">
+            <div class="container">                
+                <div class="fnb">
+                    <ul class="list-inline">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">저작권정책</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">역대영화제</a></li>
+                    </ul>
+                </div>	
+                <div class="row foot_line">
+                    <div class="col">
+                        <p><strong>울산사무국</strong> 울산광역시 울산구 울산로 100 영화의전당 2층</p>
+                        <p><strong>대표전화</strong> 1688-3010 </p>
+                    </div>
+                </div>
+                <p class="copyright">ⓒ Minkyoung International Film Festival</p>
+            </div>	
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/faq.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+.row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  color: #444;
+  word-break: keep-all;
+  margin: 10px 0;
+}
+
+.list_basic {
+  margin-left: 20px;
+}
+
+.list_basic > li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 12px 0;
+  padding-left: 12px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  word-break: keep-all;
+}
+
+.list_basic > li::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background: #e10011;
+  position: absolute;
+  top: 13px;
+  left: 0;
+}
+
+/* event_col */
+.event_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.col_small {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 50%;
+  opacity: 0;
+}
+
+.col_border_outline {
+  width: 500px;
+  margin: 40px auto;
+}
+
+.col_border {
+  border: 1px solid #e0e0e0;
+}
+
+.evt-imgbox {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.evt-imgbox img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.evt-imgbox:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.evt-txtbox {
+  padding: 20px;
+}
+
+.evt-tit, .evt-loc {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1280px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col_small {
+    width: 100%;
+  }
+  .col_border_outline {
+    width: 90%;
+  }
+  .evt-imgbox, .evt-imgbox img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+/*# sourceMappingURL=event.css.map */

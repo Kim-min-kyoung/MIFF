@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIFF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/sliiide.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/event.css">
+</head>
+<body>
+    <div class="header">
+        <div class="top_logo">
+            <h1><a href="index.html">MIFF</a></h1>
+        </div>
+        <div id="sliiider-toggle" class="fan-rfa-hamburger-icon">
+            <svg
+                data-name="hamburger Menu Icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 321.5">
+                <rect width="448" height="65" rx="32" ry="32"/>
+                <rect y="127.5" width="448" height="65" rx="32" ry="32"/>
+                <rect y="256.5" width="448" height="65" rx="32" ry="32"/>
+            </svg>
+        </div>
+        <div class="sliding-menu">
+            <div class="drop-down-menu-close slider-exit">
+                <svg
+                    data-name="Close Icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 336.16 336.16">
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(-45 168.08 168.079)"/>
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(45 168.079 168.08)"/>
+                </svg>
+            </div>
+            <h3>Chapters</h3>
+            <a href="index.html"><p>HOME</p></a>
+            <a href="about.html"><p>ABOUT</p></a>
+            <a href="event.html"><p>EVENT</p></a>
+            <a href="faq.html"><p>FAQ</p></a>
+            <div class="social-grp">
+                <a href="#">
+                    <svg id="" class="rfa-fb-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.71 36.71">
+                        <title>FB</title>
+                        <path id="Facebook"
+                            d="M36.71,34.68a2,2,0,0,1-2,2H25.33V22.49H30.1L30.82,17H25.33V13.42c0-1.61.45-2.7,2.75-2.7H31v-5a41.29,41.29,0,0,0-4.28-.22c-4.23,0-7.12,2.59-7.12,7.33V17H14.82v5.54h4.79V36.71H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H34.69a2,2,0,0,1,2,2Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg id="" class="rfa-tw-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 31.21">
+                        <title>TW</title>
+                        <path id="Twitter"
+                            d="M36.42.58a15.43,15.43,0,0,1-4.88,1.91A7.59,7.59,0,0,0,25.93,0a7.78,7.78,0,0,0-7.68,7.88,7.5,7.5,0,0,0,.2,1.79A21.63,21.63,0,0,1,2.61,1.44a8,8,0,0,0-1,4A7.9,7.9,0,0,0,5,12,7.67,7.67,0,0,1,1.5,11v.1A7.83,7.83,0,0,0,7.67,18.8a7.09,7.09,0,0,1-2,.28,7.67,7.67,0,0,1-1.45-.14,7.71,7.71,0,0,0,7.18,5.47,15.21,15.21,0,0,1-9.55,3.37A13.84,13.84,0,0,1,0,27.67a21.32,21.32,0,0,0,11.78,3.54c14.13,0,21.86-12,21.86-22.42,0-.34,0-.68,0-1a15.51,15.51,0,0,0,3.83-4.08A14.52,14.52,0,0,1,33,4.93,7.8,7.8,0,0,0,36.42.58Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container col">
+        <div class="sub_title_wrap">
+            <div class="container">
+                <h1 class="en">EVENT - 오픈토크</h1>
+            </div>
+        </div>
+        <div class="container">
+            <a id="scollTop_btn" href="#"><img src="img/top_icon.png"></a>
+            <div class="row row_line">
+                <div class="col">
+                    <div>
+                        <p class="tit-sec mc">입장 및 운영 안내</p>
+                        <p class="desc">1. 야외무대인사 &amp; 오픈토크 행사는 코로나19 방역 수칙을 준수하여 운영됩니다. </p>
+                        <p class="desc">2. 사회적 거리 두기 지침에 따라 선착순 250명만 입장이 가능합니다.  </p>
+                        <p class="desc">3. 코로나19 확산 방지를 위해 다음과 같이 운영하오니, 적극 동참하여 주시기 바랍니다.</p>
+                        <ul class="list_basic">
+                            <li>임시 관객석은 선착순으로 입장하며, 1인 1좌석(본인)만 허용됩니다. (좌석 대리 확보 불가) </li>
+                            <li>행사 시작 후 자리 이동은 불가합니다. (화장실, 퇴장만 허용)</li>
+                            <li>관객석 내에는 음료 및 음식물 반입이 불가합니다. </li>
+                            <li><u>선착순 250명 무대 앞 좌석이 만석일 경우, 야외극장 고정석에서 관람 바랍니다. 고정 관람석에서도 거리 두기를 유지하여 관람 바랍니다.</u></li>
+                        </ul>
+                        <p class="desc">4. 발열 체크와 출입 기록을 위하여 임시 관객석 입구와 출구는 각각 1개 입니다.  </p>
+                        <ul class="list_basic">
+                            <li>입장 시 입구에서 스탬프를 찍어드릴 예정입니다. 스탬프를 받으신 관객만 입장 가능합니다.</li>
+                            <li>행사 중 관객석에서 퇴장하는 관객(빈좌석)이 있을 경우, 순서에 따라 대기 관객이 입장 가능합니다.</li>
+                            <li>관객석에서 퇴장 후 재입장 시, 만석일 경우는 대기 순서에 따라 입장 가능합니다.</li>
+                            <li>단, 화장실 이용하실 경우는 재입장 됩니다. 재입장 안내는 현장에서 공지 됩니다. </li>
+                        </ul>
+                        <p class="desc">5. 관객석 선착순 입장 대기는 행사 시작 1시간 전부터 가능합니다. </p>
+                        <ul class="list_basic">
+                            <li>입장 대기 시간 이전에 객석에서의 대기가 불가능합니다.</li>
+                            <li>임의로 조성된 대기줄은 영화제와 무관합니다.</li>
+                        </ul>
+                        <p class="desc">6. 코로나19 예방과 관객 안전을 위한 아래의 방역 방침을 따르지 않을 경우 퇴장 조치 될 수 있습니다.</p>
+                        <ul class="list_basic">
+                            <li>관객석 입장 시 안심콜 전화 인증 출입 등록이 확인되어야 입장 가능합니다.</li>
+                            <li>관객석 입장 시 체온 측정되며, 체온 측정 시 두 차례 이상 37.5도 이상이면 입장이 제한됩니다.</li>
+                            <li>모든 관객은 마스크를 반드시 착용하셔야 하며, 미착용시 퇴장 혹은 입장이 제한됩니다. </li>
+                        </ul>
+                        <p class="desc bold mc">
+                            위의 안내 사항을 참고하셔서 즐거운 야외무대인사&오픈토크 관람이 되시기 바랍니다. <br/>
+                            행사장 운영 인력과 자원봉사자의 안내 및 진행에 적극적인 협조를 부탁드립니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col event_col">
+                    <div class="col_small">
+                        <div class="col_border_outline">
+                            <div class="col_border">			
+                                <div class="evt-imgbox">
+                                    <img src="img/event/event1.png">	
+                                </div>
+                                <div class="col">
+                                    <div class="evt-txtbox">
+                                        <p class="evt-tit">10.7(목) 16:00 오픈토크 [승리호]</p>
+                                        <p class="evt-loc">영화의전당 BIFFXGENESIS 야외무대</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_small">
+                        <div class="col_border_outline">
+                            <div class="col_border">			
+                                <div class="evt-imgbox">
+                                    <img src="img/event/event2.png">	
+                                </div>
+                                <div class="col">
+                                    <div class="evt-txtbox">
+                                        <p class="evt-tit">10.8(금) 13:00 오픈토크 [행복의 나라로]</p>
+                                        <p class="evt-loc">영화의전당 BIFFXGENESIS 야외무대</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_small">
+                        <div class="col_border_outline">
+                            <div class="col_border">			
+                                <div class="evt-imgbox">
+                                    <img src="img/event/event3.png">	
+                                </div>
+                                <div class="col">
+                                    <div class="evt-txtbox">
+                                        <p class="evt-tit">10.8(금) 14:00 오픈토크 [언프레임드]</p>
+                                        <p class="evt-loc">영화의전당 BIFFXGENESIS 야외무대</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_small">
+                        <div class="col_border_outline">
+                            <div class="col_border">			
+                                <div class="evt-imgbox">
+                                    <img src="img/event/event4.png">	
+                                </div>
+                                <div class="col">
+                                    <div class="evt-txtbox">
+                                        <p class="evt-tit">10.8(금) 16:00 오픈토크 [마이 네임]</p>
+                                        <p class="evt-loc">영화의전당 BIFFXGENESIS 야외무대</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_small">
+                        <div class="col_border_outline">
+                            <div class="col_border">			
+                                <div class="evt-imgbox">
+                                    <img src="img/event/event5.png">	
+                                </div>
+                                <div class="col">
+                                    <div class="evt-txtbox">
+                                        <p class="evt-tit">10.8(금) 17:00 오픈토크 [지옥]</p>
+                                        <p class="evt-loc">영화의전당 BIFFXGENESIS 야외무대</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_small">
+                        <div class="col_border_outline">
+                            <div class="col_border">			
+                                <div class="evt-imgbox">
+                                    <img src="img/event/event6.png">	
+                                </div>
+                                <div class="col">
+                                    <div class="evt-txtbox">
+                                        <p class="evt-tit">10.13(수) 17:30 오픈토크 [영화 만들기와 드라마 만들기]</p>
+                                        <p class="evt-loc">영화의전당 BIFFXGENESIS 야외무대</p>
+                                        <p class="evt-loc">게스트: 장항준 감독, 김성훈 감독, 한준희 감독</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ft" class="ft">
+        <div class="footer_inner">
+            <div class="container">                
+                <div class="fnb">
+                    <ul class="list-inline">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">저작권정책</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">역대영화제</a></li>
+                    </ul>
+                </div>	
+                <div class="row foot_line">
+                    <div class="col">
+                        <p><strong>울산사무국</strong> 울산광역시 울산구 울산로 100 영화의전당 2층</p>
+                        <p><strong>대표전화</strong> 1688-3010 </p>
+                    </div>
+                </div>
+                <p class="copyright">ⓒ Minkyoung International Film Festival</p>
+            </div>	
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/event.js"></script>
+</body>
+</html>

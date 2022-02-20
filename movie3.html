@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIFF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/614007/sliiide.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/movie.css">
+</head>
+<body>
+    <div>
+        <div class="top_logo">
+            <h1><a href="index.html">MIFF</a></h1>
+        </div>
+        <div id="sliiider-toggle" class="fan-rfa-hamburger-icon">
+            <svg
+                data-name="hamburger Menu Icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 321.5">
+                <rect width="448" height="65" rx="32" ry="32"/>
+                <rect y="127.5" width="448" height="65" rx="32" ry="32"/>
+                <rect y="256.5" width="448" height="65" rx="32" ry="32"/>
+            </svg>
+        </div>
+        <div class="sliding-menu">
+            <div class="drop-down-menu-close slider-exit">
+                <svg
+                    data-name="Close Icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 336.16 336.16">
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(-45 168.08 168.079)"/>
+                    <rect x="-55.92" y="135.58" width="448" height="65" rx="32" ry="32" transform="rotate(45 168.079 168.08)"/>
+                </svg>
+            </div>
+            <h3>Chapters</h3>
+            <a href="index.html"><p>HOME</p></a>
+            <a href="about.html"><p>ABOUT</p></a>
+            <a href="event.html"><p>EVENT</p></a>
+            <a href="faq.html"><p>FAQ</p></a>
+            <div class="social-grp">
+                <a href="#">
+                    <svg id="" class="rfa-fb-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.71 36.71">
+                        <title>FB</title>
+                        <path id="Facebook"
+                            d="M36.71,34.68a2,2,0,0,1-2,2H25.33V22.49H30.1L30.82,17H25.33V13.42c0-1.61.45-2.7,2.75-2.7H31v-5a41.29,41.29,0,0,0-4.28-.22c-4.23,0-7.12,2.59-7.12,7.33V17H14.82v5.54h4.79V36.71H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H34.69a2,2,0,0,1,2,2Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg id="" class="rfa-tw-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.45 31.21">
+                        <title>TW</title>
+                        <path id="Twitter"
+                            d="M36.42.58a15.43,15.43,0,0,1-4.88,1.91A7.59,7.59,0,0,0,25.93,0a7.78,7.78,0,0,0-7.68,7.88,7.5,7.5,0,0,0,.2,1.79A21.63,21.63,0,0,1,2.61,1.44a8,8,0,0,0-1,4A7.9,7.9,0,0,0,5,12,7.67,7.67,0,0,1,1.5,11v.1A7.83,7.83,0,0,0,7.67,18.8a7.09,7.09,0,0,1-2,.28,7.67,7.67,0,0,1-1.45-.14,7.71,7.71,0,0,0,7.18,5.47,15.21,15.21,0,0,1-9.55,3.37A13.84,13.84,0,0,1,0,27.67a21.32,21.32,0,0,0,11.78,3.54c14.13,0,21.86-12,21.86-22.42,0-.34,0-.68,0-1a15.51,15.51,0,0,0,3.83-4.08A14.52,14.52,0,0,1,33,4.93,7.8,7.8,0,0,0,36.42.58Z"
+                            fill="#ffffff"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="film-body">
+        <a id="scollTop_btn" href="#"><img src="img/top_icon.png"></a>
+        <div class="filmtop">
+            <div class="filmtop_visual" style="background-image: url(img/movie_3.jpg);"></div>
+        </div>
+        <div class="filmdetail">
+            <div class="container movie_con">
+                <div class="film_sec film_info">
+                    <span class="h2 tit_h1">새해전야&nbsp;
+                        <small class="film_tit_en">New Year Blues</small>
+                    </span>
+                    <ul>
+                        <li class="en"><span class="screen_outx">국가</span>Korea</li>
+                        <li class="en"><span class="screen_outx">제작연도</span>2021</li>
+                        <li class="en"><span class="screen_outx">러닝타임</span>115min</li>
+                        <li class="en"><span class="screen_outx">상영포맷</span>DCP</li>
+                        <li class="en"><span class="screen_outx">컬러</span>Color</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="filmdetail_inner">
+                        <div class="film_sec film_synopsis">
+                            <span class="h3">Program Note</span>
+                            <div class="desc">
+                                숫자 하나 달라졌을 뿐인데 세상이 달라진 것 같은 기분, ′새해′라는 한 마디에는 설렘이 깃들어 있다.<br/>
+                                <새해전야>는 새해를 앞둔 네 커플의 사연을 그린다. 이혼 4년 차 싱글남 형사 지호(김강우)와 이혼 소송 중인 재활 트레이너 효영(유인나),<br/>
+                                남자친구에게 이별 통보를 받은 후 아르헨티나로 떠난 진아(이연희)와 그곳에서 와인 배달원으로 일하는 재헌(유연석),<br/>
+                                여행사 대표 용찬(이동휘)과 결혼을 앞둔 중국인 여자친구 야오린(천두링),<br/>
+                                패럴림픽 스노보드 국가대표 래환(유태오)과 햇살처럼 그를 위로하는 원예사 오월(최수영)이 그 주인공들이다.<br/>
+                                홍지영 감독은 로맨틱 코미디 <결혼전야>(2013)에 이어 이번에도 여지없이 각양각색 사연의 실로 예쁘고 사랑스러운 옷을 짓는다.<br/>
+                                익숙하면서도 공감 가는 전개, 훈훈한 비주얼에 더해 배우들의 적절한 연기 호흡이 보는 재미를 더한다.
+                                <br/>(송경원)
+                            </div>
+                        </div>
+                        <div class="film_sec film_director">
+                            <span class="h3 tit_h3 en">Director</span>
+                            <div class="list_dir">
+                                <div class="dir_item">
+                                    <div class="dir_thumb">
+                                        <div class="avatar">
+                                            <img src="https://img.biff.kr/9611_DATA/FILM_PHOTO/2021/1628497795.jpg" alt="Director">                                    
+                                        </div>
+                                    </div>
+                                    <div class="dir_info">
+                                        <strong class="dir_name">홍지영</strong>
+                                        <p class="dir_name_en">HONG Ji-young</p>
+                                        <div class="desc">
+                                            한국영화아카데미 14기 졸업 후, 첫 장편 <키친>(2009)으로 베를린영화제 등 각종 해외영화제에 초청되며 <br/>이름을 알렸다.
+                                            2012년 <무서운 이야기>와 <가족시네마> 두 편의 영화로 관객과 만났고, <br/>
+                                            결혼을 앞둔 커플들의 복잡한 심리를 경쾌하게 그려낸<결혼전야>(2013)로 대중의 호평을 받았다.<br/>
+                                            세계적인 베스트셀러 작가 기욤 뮈소의 원작을 아시아 최초로 영화화한 <당신, 거기 있어 줄래요>(2016)를 연출했다.<br/>
+                                            새해를 앞둔 네 커플의 로맨틱한 일주일을 다룬 <새해전야>는 감독 특유의 섬세한 감성이 반영된 연출작이다.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="film_sec film_photo">
+                            <span class="h3">Photo</span>
+                            <div class="slideshow-container">
+                                <div class="film_photo_slider slide_fade">
+                                  <img src="img/movie_3.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                  <img src="img/movie_3-2.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_3-3.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_3-3.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_3-4.jpg">
+                                </div>
+                                <div class="film_photo_slider slide_fade">
+                                    <img src="img/movie_3-5.jpg">
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <div class="control_button">
+                                    <a class="prev" onclick="moveSlides(-1)"><img src="img/view_arr_left.png"></a>
+                                    <a class="next" onclick="moveSlides(1)"><img src="img/view_arr_right.png"></a>
+                                </div>
+                                <!-- The dots/circles -->
+                                <div class="film_dots">
+                                    <span class="dot" onclick="currentSlide(0)"></span>
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                    <span class="dot" onclick="currentSlide(5)"></span>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ft" class="ft">
+        <div class="footer_inner">
+            <div class="container">                
+                <div class="fnb">
+                    <ul class="list-inline">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">저작권정책</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">역대영화제</a></li>
+                    </ul>
+                </div>	
+                <div class="row foot_line">
+                    <div class="col">
+                        <p><strong>울산사무국</strong> 울산광역시 울산구 울산로 100 영화의전당 2층</p>
+                        <p><strong>대표전화</strong> 1688-3010 </p>
+                    </div>
+                </div>
+                <p class="copyright">ⓒ Minkyoung International Film Festival</p>
+            </div>	
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/movie.js"></script>
+</body>
+</html>
