@@ -108,7 +108,7 @@ html {
 }
 
 .fan-rfa-hamburger-icon:hover {
-  fill: #b56b6e;
+  fill: #c6878f;
 }
 
 .white-Bkg-hamburger-menu-color {
@@ -118,7 +118,7 @@ html {
 }
 
 .white-Bkg-hamburger-menu-color:hover {
-  fill: #b56b6e;
+  fill: #c6878f;
 }
 
 .drop-down-menu-close {
@@ -140,7 +140,7 @@ html {
   height: 100%;
   visibility: hidden;
   z-index: 5;
-  background-color: #b56b6e;
+  background-color: #c6878f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,7 +318,7 @@ html {
 }
 
 .counter-grp .slide-links-container a {
-  color: #b56b6e;
+  color: #c6878f;
 }
 
 /* footer */

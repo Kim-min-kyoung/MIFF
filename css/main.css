@@ -2,7 +2,7 @@
 /* main */
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #14051f;
+  background-color: #0d1321;
   opacity: 1;
   -webkit-transition: 1s opacity;
   transition: 1s opacity;
@@ -51,7 +51,7 @@ body .fade-out {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #b56b6e;
+  background-color: #c6878f;
   z-index: 10;
 }
 
@@ -222,7 +222,7 @@ body .fade-out {
   background-size: cover;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #b56b6e;
+  background-color: #c6878f;
 }
 
 .rfa-chap-sect-slide h3 {
@@ -388,7 +388,7 @@ body .fade-out {
 }
 
 .top_logo h1:hover {
-  color: #b56b6e;
+  color: #c6878f;
 }
 
 /* 반응형 */
@@ -445,7 +445,7 @@ body .fade-out {
     background-position: center;
     height: 100%;
     width: 100%;
-    background-color: #b56b6e;
+    background-color: #c6878f;
     top: 0;
     right: 0;
     left: 0;
@@ -542,7 +542,7 @@ body .fade-out {
   .rfa-sl-container-start h1,
   .rfa-sl-container-start p,
   .hp-cta-wrapper {
-    width: 310px;
+    width: 330px;
   }
   .rfa-sl-container-start h1 {
     font-size: 51.5px;
@@ -603,14 +603,14 @@ body .fade-out {
   .rfa-chap-sect-wrapper .swiper-slide-prev,
   .rfa-chap-sect-wrapper .swiper-slide-next {
     height: 80%;
-    background-color: #b56b6e;
+    background-color: #c6878f;
     -webkit-transition: height 300ms;
     transition: height 300ms;
   }
   .swiper-slide-prev .slide-cover,
   .swiper-slide-next .slide-cover,
   .slide-cover {
-    background-color: #b56b6e;
+    background-color: #c6878f;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -629,7 +629,7 @@ body .fade-out {
     transition: opacity 300ms, transform 310ms 100ms, -webkit-transform 310ms 100ms;
     height: 100%;
     width: 100%;
-    background-color: #b56b6e;
+    background-color: #c6878f;
     z-index: 2;
     -webkit-transform: scale(0);
             transform: scale(0);

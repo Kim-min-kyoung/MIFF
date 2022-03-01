@@ -70,14 +70,14 @@ html { scroll-behavior: smooth; }
 	fill: #f5f5f5;
     transition: fill 250ms;
     &:hover {
-        fill: #b56b6e;
+        fill: #c6878f;
     }
 }
 .white-Bkg-hamburger-menu-color {
 	fill: #14051f;
     transition: fill 250ms;
     &:hover {
-        fill: #b56b6e;
+        fill: #c6878f;
     }
 }
 .drop-down-menu-close {
@@ -96,7 +96,8 @@ html { scroll-behavior: smooth; }
 	height: 100%;
 	visibility: hidden;
 	z-index: 5;
-	background-color: #b56b6e;
+	// background-color: #c6878f;
+    background-color: #c6878f;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,7 +226,7 @@ html { scroll-behavior: smooth; }
             margin: 0;
         }
         a {
-            color: #b56b6e;
+            color: #c6878f;
         }
     }
 }
