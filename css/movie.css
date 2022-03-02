@@ -2,7 +2,7 @@
   padding: 0;
   color: #fff;
   background: #000;
-  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
 }
 
 .filmtop {
@@ -22,16 +22,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
-  -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(transparent), color-stop(70%, black));
   -webkit-mask-image: linear-gradient(to top, transparent 0%, black 70%);
-          mask-image: -webkit-gradient(linear, left bottom, left top, from(transparent), color-stop(70%, black));
           mask-image: linear-gradient(to top, transparent 0%, black 70%);
   -webkit-animation-name: imgScale;
           animation-name: imgScale;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
 }
-
 .filmtop_visual img {
   max-width: 100%;
   vertical-align: middle;
@@ -45,23 +42,19 @@
   padding-bottom: 3rem;
   margin-left: 8.5rem;
 }
-
 .film_sec::before {
   margin-left: 4rem;
 }
-
 .film_sec .h2 {
   margin-bottom: 1.125rem;
   display: block;
   opacity: 0.99;
 }
-
 .film_sec .tit_h1 {
   font-size: 3.4rem;
   color: #fff;
   margin-bottom: 1rem;
 }
-
 .film_sec .h3 {
   margin-bottom: 0.75rem;
   display: block;
@@ -69,7 +62,6 @@
   font-size: 28px;
   font-weight: 700;
 }
-
 .film_sec .desc {
   opacity: 0.7;
   line-height: 1.75;
@@ -78,13 +70,11 @@
 .film_info {
   position: relative;
 }
-
 .film_info ul {
   position: relative;
   margin-right: -1.2rem;
   margin-top: 5rem;
 }
-
 .film_info ul li {
   position: relative;
   padding: 0 5rem 0 0;
@@ -94,13 +84,11 @@
   color: #fff;
   font-weight: 600;
 }
-
 .film_info ul li:first-child {
   padding-left: 0;
 }
-
 .film_info ul li:not(:last-child):after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 1px;
   height: 50px;
@@ -108,10 +96,9 @@
   position: absolute;
   top: 3px;
   right: 0;
-  opacity: .6;
+  opacity: 0.6;
   margin-right: 2.5rem;
 }
-
 .film_info ul li span.screen_outx {
   display: block;
   font-size: 1rem;
@@ -122,24 +109,20 @@
 .credits {
   padding-left: 30px;
 }
-
 .credits ul {
   margin-top: -0.4rem;
   margin-bottom: -0.4rem;
   position: relative;
 }
-
 .credits ul li {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
   line-height: 1.38;
 }
-
 .credits ul li strong {
   display: block;
   color: #fff;
 }
-
 .credits ul li span {
   display: inline-block;
   padding-right: 0.6rem;
@@ -148,7 +131,7 @@
 }
 
 .film_tit_en {
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: bold;
   opacity: 0.7;
 }
@@ -172,24 +155,18 @@
 
 .dir_item {
   padding: 1.6rem 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: left;
 }
 
 .dir_thumb {
   margin-right: 3rem;
 }
-
 .dir_thumb > .avatar {
   width: 10rem;
   height: 10rem;
 }
-
 .dir_thumb > .avatar > img {
   display: block;
   max-width: 100%;
@@ -220,19 +197,14 @@
 .film_photo_slider {
   display: none;
 }
-
 .film_photo_slider img {
   border-radius: 1.6rem;
   width: 100%;
 }
 
 .control_button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -244,7 +216,6 @@
   color: #fff;
   font-weight: bold;
   font-size: 18px;
-  -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
@@ -271,14 +242,12 @@
   background-color: #bbb;
   border-radius: 1.6rem;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
   opacity: 0.7;
 }
 
 .active {
   width: 60px;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   opacity: 1;
 }
@@ -293,7 +262,7 @@
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4;
+    opacity: 0.4;
   }
   to {
     opacity: 1;
@@ -302,77 +271,70 @@
 
 @keyframes fade {
   from {
-    opacity: .4;
+    opacity: 0.4;
   }
   to {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes imgScale {
   from {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
     opacity: 0.7;
   }
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
-
 @keyframes imgScale {
   from {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    transform: scale(1.1);
     opacity: 0.7;
   }
   to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 }
-
 @media (min-width: 1400px) {
   .container {
     max-width: 1280px;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
+
   .film_sec {
     width: 993px;
   }
+
   .film_photo {
     width: 993px;
   }
 }
-
 @media (min-width: 992px) {
   .film_sec {
     padding-bottom: 3.75rem;
   }
+
   .filmdetail {
     padding-bottom: 2rem;
   }
+
   .filmdetail_inner {
     margin-top: 25px;
   }
+
   .film_tit_en {
     font-size: 1.4rem;
   }
+
   .film_info ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
   }
+
   .list_dir {
     margin-top: 10px;
     background: none;
@@ -380,31 +342,34 @@
     margin-bottom: 0;
     padding: 0;
   }
+
   .dir_item {
     text-align: left;
   }
+
   .dir_thumb > .avatar {
     width: 12.5rem;
     height: 12.5rem;
   }
 }
-
 @media (max-width: 991px) {
   .filmdetail {
     margin-top: auto;
   }
+
   .film_info {
     padding-left: 0;
   }
+
   .film_sec {
     margin-left: 0;
   }
 }
-
 @media (max-width: 768px) {
   .filmdetail {
     margin-top: auto;
   }
+
   .film_info {
     padding-left: 0;
   }
@@ -419,7 +384,7 @@
     display: none;
   }
   .film_info ul li:not(:last-child):after {
-    content: '';
+    content: "";
     display: inline-block;
     width: 1px;
     height: 10px;
@@ -427,8 +392,9 @@
     position: absolute;
     top: 3px;
     right: 0;
-    opacity: .6;
+    opacity: 0.6;
   }
+
   .film_sec .h2 {
     padding-left: 0;
     font-size: 24px;
@@ -436,11 +402,12 @@
   .film_sec .tit_h1 {
     margin: 0;
   }
+
   .list_dir {
     background: transparent;
   }
+
   .dir_thumb {
     display: none;
   }
 }
-/*# sourceMappingURL=movie.css.map */

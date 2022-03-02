@@ -1,9 +1,7 @@
 /* main */
 body {
-    // font-family: 'Rubik', sans-serif;
 	font-family: 'Montserrat', sans-serif;
-    // background-color: #14051f;
-	background-color: #0d1321;
+	background-color: #210b2c;
     opacity: 1;
     transition: 1s opacity;
     // 터치 하이라이트제거
@@ -41,7 +39,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: #c6878f;
+	background-color: #ae759f;
 	z-index: 10;
     p {
         color: #f5f5f5;
@@ -130,7 +128,6 @@ body {
 	z-index: 1;
     // 뒷면 숨기기
     backface-visibility: hidden;
-	// -moz-osx-font-smoothing: grayscale;
 	outline: none;
 	cursor: pointer;
 	text-align: left;
@@ -176,7 +173,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-sizing: border-box;
-	background-color: #c6878f;
+	background-color: #ae759f;
     h3 {
         text-align: center;
         font-weight: 900;
@@ -215,10 +212,6 @@ body {
         transform: translate(-50%,-50%);
     }
 }
-// // 확인해보고 지우기
-// .slide__intro {
-// 	background-color: aqua;
-// }
 .slide_chap1 {
 	background-image: url('../img/movie_1.jpg');
 }
@@ -306,7 +299,7 @@ body {
         color: #fff;
         transition: 0.3s;
         &:hover {
-            color: #c6878f;
+            color: #ae759f;
         }
     }
 }
@@ -365,7 +358,7 @@ body {
 		background-position: center;
 		height: 100%;
 		width: 100%;
-		background-color: #c6878f;
+		background-color: #ae759f;
 		top: 0;
 		right: 0;
 		left: 0;
@@ -512,13 +505,13 @@ body {
 	.rfa-chap-sect-wrapper .swiper-slide-prev, 
 	.rfa-chap-sect-wrapper .swiper-slide-next {
 		height: 80%;
-		background-color: #c6878f;
+		background-color: #ae759f;
     	transition: height 300ms;
 	}
 	.swiper-slide-prev .slide-cover,
 	.swiper-slide-next .slide-cover,
 	.slide-cover {
-		background-color: #c6878f;
+		background-color: #ae759f;
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -533,7 +526,7 @@ body {
     	transition: opacity 300ms, transform 310ms 100ms;
 		height: 100%;
 		width: 100%;
-		background-color: #c6878f;
+		background-color: #ae759f;
 		z-index: 2;
 		transform: scale(0);
 	}
@@ -555,7 +548,7 @@ body {
 		display: none;
 	}
 	.rfa-sl-container-start-img {
-		background-image: url('../img/bg_3.jpeg');
+		background-image: url('../img/bg_5.jpeg');
 	}
 	.chapter-content--slide {
 		height: 100%;

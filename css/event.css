@@ -1,13 +1,11 @@
 body {
   background-color: #fff;
   color: #333;
-  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
 }
 
 .row {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .desc {
@@ -23,7 +21,6 @@ body {
 .list_basic {
   margin-left: 20px;
 }
-
 .list_basic > li {
   position: relative;
   font-size: 17px;
@@ -35,9 +32,8 @@ body {
   text-align: left;
   word-break: keep-all;
 }
-
 .list_basic > li::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 3px;
   height: 3px;
@@ -49,18 +45,13 @@ body {
 
 /* event_col */
 .event_col {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 
 .col_small {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  flex: 0 0 auto;
   width: 50%;
   opacity: 0;
 }
@@ -78,20 +69,16 @@ body {
   width: 100%;
   height: auto;
   overflow: hidden;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
 .evt-imgbox img {
   width: 100%;
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
 }
-
 .evt-imgbox:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .evt-txtbox {
@@ -110,26 +97,23 @@ body {
     padding-left: 1.5rem;
   }
 }
-
 @media (min-width: 768px) {
   .col {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    flex: 0 0 auto;
     width: 100%;
   }
 }
-
 @media (max-width: 768px) {
   .col_small {
     width: 100%;
   }
+
   .col_border_outline {
     width: 90%;
   }
+
   .evt-imgbox, .evt-imgbox img {
     -o-object-fit: contain;
        object-fit: contain;
   }
 }
-/*# sourceMappingURL=event.css.map */

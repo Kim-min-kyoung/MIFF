@@ -7,7 +7,7 @@ html { scroll-behavior: smooth; }
 .mc { padding: 30px 0; }
 .header {
     height: 70px;
-    background-color: #14051f;
+    background-color: #210b2c;
 }
 .header.active{
     position: fixed;
@@ -70,14 +70,14 @@ html { scroll-behavior: smooth; }
 	fill: #f5f5f5;
     transition: fill 250ms;
     &:hover {
-        fill: #c6878f;
+        fill: #ae759f;
     }
 }
 .white-Bkg-hamburger-menu-color {
 	fill: #14051f;
     transition: fill 250ms;
     &:hover {
-        fill: #c6878f;
+        fill: #ae759f;
     }
 }
 .drop-down-menu-close {
@@ -96,8 +96,7 @@ html { scroll-behavior: smooth; }
 	height: 100%;
 	visibility: hidden;
 	z-index: 5;
-	// background-color: #c6878f;
-    background-color: #c6878f;
+    background-color: #ae759f;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,7 +139,6 @@ html { scroll-behavior: smooth; }
 	position: absolute;
 	z-index: 1;
     backface-visibility: hidden;
-	// -moz-osx-font-smoothing: grayscale;
     &:focus {
         outline: none;
     }
@@ -226,7 +224,7 @@ html { scroll-behavior: smooth; }
             margin: 0;
         }
         a {
-            color: #c6878f;
+            color: #ae759f;
         }
     }
 }

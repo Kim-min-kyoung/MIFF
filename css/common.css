@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   vertical-align: middle;
 }
 
@@ -30,7 +29,7 @@ html {
 
 .header {
   height: 70px;
-  background-color: #14051f;
+  background-color: #210b2c;
 }
 
 .header.active {
@@ -47,13 +46,11 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
-
 .container::before {
   display: table;
   content: " ";
   clear: both;
 }
-
 .container h1 {
   font-size: 45px;
   font-weight: 700 !important;
@@ -61,13 +58,9 @@ html {
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .row::before {
   display: table;
   content: " ";
@@ -103,22 +96,18 @@ html {
   width: 30px;
   height: auto;
   fill: #f5f5f5;
-  -webkit-transition: fill 250ms;
   transition: fill 250ms;
 }
-
 .fan-rfa-hamburger-icon:hover {
-  fill: #c6878f;
+  fill: #ae759f;
 }
 
 .white-Bkg-hamburger-menu-color {
   fill: #14051f;
-  -webkit-transition: fill 250ms;
   transition: fill 250ms;
 }
-
 .white-Bkg-hamburger-menu-color:hover {
-  fill: #c6878f;
+  fill: #ae759f;
 }
 
 .drop-down-menu-close {
@@ -127,10 +116,8 @@ html {
   width: 20px;
   height: auto;
   fill: #14051f;
-  -webkit-transition: fill 250ms;
   transition: fill 250ms;
 }
-
 .drop-down-menu-close:hover {
   fill: #f5f5f5;
 }
@@ -140,22 +127,12 @@ html {
   height: 100%;
   visibility: hidden;
   z-index: 5;
-  background-color: #c6878f;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: #ae759f;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .sliding-menu > a {
   text-decoration: none;
   text-align: center;
@@ -165,7 +142,6 @@ html {
   margin: 5px 0;
   letter-spacing: -1px;
 }
-
 .sliding-menu > p {
   text-align: center;
   color: #fff;
@@ -174,7 +150,6 @@ html {
   margin: 5px 0;
   letter-spacing: -1px;
 }
-
 .sliding-menu h3 {
   text-align: center;
   color: #fff;
@@ -197,7 +172,6 @@ html {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
-
 .button:focus {
   outline: none;
 }
@@ -205,13 +179,10 @@ html {
 .button--winona {
   overflow: hidden;
   padding: 0;
-  -webkit-transition: border-color 0.3s, background-color 0.3s;
   transition: border-color 0.3s, background-color 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-          transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
   cursor: pointer;
 }
-
 .button--winona::after {
   content: attr(data-text);
   position: absolute;
@@ -220,53 +191,36 @@ html {
   left: 12px;
   opacity: 0;
   color: #f5f5f5;
-  -webkit-transform: translate3d(0, 25%, 0);
-          transform: translate3d(0, 25%, 0);
+  transform: translate3d(0, 25%, 0);
   padding: 10px 30px;
-  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-          transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
-
 .button--winona > span {
   display: block;
   padding: 10px 30px;
-  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-          transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
-
 .button--winona:hover {
   border-color: #f5f5f5;
   background-color: rgba(20, 5, 31, 0.1);
 }
-
 .button--winona:hover::after {
   opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
-
 .button--winona:hover > span {
   opacity: 0;
-  -webkit-transform: translate3d(0, -25%, 0);
-          transform: translate3d(0, -25%, 0);
+  transform: translate3d(0, -25%, 0);
 }
 
 .button--winona.button--inverted {
   color: #14051f;
 }
-
 .button--winona.button--inverted::after {
   color: #14051f;
 }
-
 .button--winona.button--inverted:hover {
   border-color: #14051f;
   background-color: #14051f;
@@ -289,21 +243,14 @@ html {
   position: absolute;
   left: 50%;
   bottom: 8%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   width: 120px;
   height: 25px;
   text-align: center;
   z-index: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .counter-grp .slide-links-container {
   top: 0;
   height: auto;
@@ -312,13 +259,11 @@ html {
   margin: 0;
   z-index: 2;
 }
-
 .counter-grp .slide-links-container p {
   margin: 0;
 }
-
 .counter-grp .slide-links-container a {
-  color: #c6878f;
+  color: #ae759f;
 }
 
 /* footer */
@@ -338,23 +283,16 @@ html {
   text-align: center;
   padding-bottom: 10px;
 }
-
 .fnb ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .fnb ul li {
   padding: 5px 20px;
   position: relative;
 }
-
 .fnb ul li:not(:last-child):after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 2px;
   height: 20px;
@@ -362,7 +300,7 @@ html {
   position: absolute;
   top: 3px;
   right: 0;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .foot_line {
@@ -370,11 +308,8 @@ html {
   margin: 15px auto;
   padding: 30px 0 10px 0;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .foot_line p {
   font-style: normal;
   font-weight: normal;
@@ -384,4 +319,3 @@ html {
 .copyright {
   text-align: center;
 }
-/*# sourceMappingURL=common.css.map */

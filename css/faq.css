@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   color: #333;
-  font-family: 'Pretendard Variable', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  font-family: "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
 }
 
 .tabs {
@@ -11,13 +11,11 @@ body {
 .tab_menu {
   text-align: center;
 }
-
 .tab_menu li {
   padding: 5px 3px;
   display: inline-block;
   margin: 0 5px;
 }
-
 .tab_menu li a {
   display: inline-block;
   color: #444;
@@ -45,7 +43,6 @@ body {
 .qna_list {
   width: 100%;
 }
-
 .qna_list li {
   color: #555;
   font-size: 18px;
@@ -53,7 +50,6 @@ body {
   border-bottom: 1px solid #dfdfdf;
   cursor: pointer;
 }
-
 .qna_list li:first-child {
   border-top: 1px solid #dfdfdf;
 }
@@ -62,11 +58,9 @@ body {
   background: #f6f6f6;
   color: #bf202c;
 }
-
 .qna_list li.on .answer {
   display: block;
 }
-
 .qna_list li.on .txt_sec p {
   color: #000;
 }
@@ -75,13 +69,11 @@ body {
   position: relative;
   height: auto;
 }
-
 .question:after {
   display: block;
   clear: both;
   content: "";
 }
-
 .question span {
   float: left;
   display: inline-block;
@@ -94,18 +86,15 @@ body {
   border-radius: 50%;
   text-align: center;
   line-height: 55px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .question p {
   float: left;
   width: calc(100% - 55px);
   line-height: 53px;
   height: auto;
   border-left: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-left: 29px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -119,13 +108,11 @@ body {
   border-top: 1px dotted #dfdfdf;
   margin: 20px 0 0 0;
 }
-
 .answer:after {
   display: block;
   clear: both;
   content: "";
 }
-
 .answer > div {
   float: left;
 }
@@ -145,15 +132,12 @@ body {
 .txt_sec {
   width: 90%;
   padding: 0 0 0 30px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .txt_sec p {
   font-size: 16px;
   line-height: 1.8;
 }
-
 .txt_sec span {
   color: #e10011;
   background: none;
@@ -165,7 +149,6 @@ body {
   padding: 20px;
   border-top: 1px solid #dfdfdf;
 }
-
 .faq_covid_list li:last-child {
   border-bottom: 1px solid #dfdfdf;
 }
@@ -177,20 +160,20 @@ body {
     padding-left: 1.5rem;
   }
 }
-
 @media (min-width: 768px) {
   .col {
     width: 100%;
   }
 }
-
 @media (max-width: 414px) {
   .container {
     padding: 0 1rem;
   }
+
   .tabs {
     margin: 0 0 30px;
   }
+
   .tab_menu li {
     padding: 3px 0px;
     margin: 0 2px;
@@ -200,25 +183,28 @@ body {
     line-height: 1.5;
     padding: 6px 10px;
   }
+
   .qna_list li {
     font-size: 15px;
     padding: 10px;
   }
+
   .question span {
     font-size: 18px;
     width: 30px;
     height: 30px;
     line-height: 30px;
   }
+
   .question p {
     float: left;
     width: calc(100% - 55px);
     line-height: 30px;
     padding-left: 15px;
   }
+
   .answer {
     padding: 20px 0 10px;
     margin: 20px 0 0 0;
   }
 }
-/*# sourceMappingURL=faq.css.map */
